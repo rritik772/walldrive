@@ -35,10 +35,10 @@ function  myFunction() {
 ```
 4. Download the `csv` file
 5. clone the repo and cd into the repo
-7. run the script as  `walldrive -r 10 -f 7 -s wallpaper.csv`
-	-r (range) number of pics you want to display
-	-f (from) what should be starting pic number
-	-s (source) source file this must be a `csv` file
+7. run the script as  `walldrive -r 10 -f 7 -s ./Example/wallpaper.csv`
+	* -r (range) number of pics you want to display
+	* -f (from) what should be starting pic number
+	* -s (source) source file this must be a `csv` file
 
 ## Note
 * The script will only download and apply photo as as wallpaper which is marked first.

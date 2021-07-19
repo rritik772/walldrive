@@ -2,7 +2,7 @@
 Set wallpaper using walldrive and a csv file
 > Recommended using with Google drive
 ## Dependencies
-* wal (python)
+* pywal (python)
 * sxiv
 * curl
 * awk
@@ -35,7 +35,7 @@ function  myFunction() {
 ```
 4. Download the `csv` file
 5. clone the repo and cd into the repo
-7. run the script as  `walldrive -r 10 -f 7 -s ./Example/wallpaper.csv`
+7. run the script as  `walldrive -r 10 -f 7 -s ./Example/wallpaper.csv` (this is an example)
 	* -r (range) number of pics you want to display
 	* -f (from) what should be starting pic number
 	* -s (source) source file this must be a `csv` file
@@ -43,4 +43,4 @@ function  myFunction() {
 ## Note
 * The script will only download and apply photo as as wallpaper which is marked first.
 ## Example
-* A `csv` file is already in the example folder
+* A `csv` file is already in the example folder for testing
